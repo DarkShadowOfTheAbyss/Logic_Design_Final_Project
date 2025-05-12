@@ -1,0 +1,226 @@
+Simulator report for FinalProject
+Mon May 12 10:45:31 2025
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 25.6 us      ;
+; Simulation Netlist Size     ; 67 nodes     ;
+; Simulation Coverage         ;     100.00 % ;
+; Total Number of Transitions ; 3794         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone      ;
+; Device                      ; EP1C3T100C6  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;     100.00 % ;
+; Total nodes checked                                 ; 67           ;
+; Total output ports checked                          ; 67           ;
+; Total output ports with complete 1/0-value coverage ; 67           ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                              ;
++-------------------------+-----------------------------+------------------+
+; Node Name               ; Output Port Name            ; Output Port Type ;
++-------------------------+-----------------------------+------------------+
+; |FinalProject|inst40~0  ; |FinalProject|inst40~0      ; combout          ;
+; |FinalProject|inst40~1  ; |FinalProject|inst40~1      ; combout          ;
+; |FinalProject|inst40~2  ; |FinalProject|inst40~2      ; combout          ;
+; |FinalProject|inst40~3  ; |FinalProject|inst40~3      ; combout          ;
+; |FinalProject|inst40~4  ; |FinalProject|inst40~4      ; combout          ;
+; |FinalProject|inst69~0  ; |FinalProject|inst69~0      ; combout          ;
+; |FinalProject|inst58~0  ; |FinalProject|inst58~0      ; combout          ;
+; |FinalProject|inst58~1  ; |FinalProject|inst58~1      ; combout          ;
+; |FinalProject|inst83    ; |FinalProject|inst83        ; combout          ;
+; |FinalProject|inst81~0  ; |FinalProject|inst81~0      ; combout          ;
+; |FinalProject|inst81~1  ; |FinalProject|inst81~1      ; combout          ;
+; |FinalProject|inst81~2  ; |FinalProject|inst81~2      ; combout          ;
+; |FinalProject|inst84~0  ; |FinalProject|inst84~0      ; combout          ;
+; |FinalProject|inst81~3  ; |FinalProject|inst81~3      ; combout          ;
+; |FinalProject|inst46~0  ; |FinalProject|inst46~0      ; combout          ;
+; |FinalProject|inst81~4  ; |FinalProject|inst81~4      ; combout          ;
+; |FinalProject|inst81~5  ; |FinalProject|inst81~5      ; combout          ;
+; |FinalProject|inst81~6  ; |FinalProject|inst81~6      ; combout          ;
+; |FinalProject|inst69~1  ; |FinalProject|inst69~1      ; combout          ;
+; |FinalProject|inst69~2  ; |FinalProject|inst69~2      ; combout          ;
+; |FinalProject|inst78~0  ; |FinalProject|inst78~0      ; combout          ;
+; |FinalProject|inst78~1  ; |FinalProject|inst78~1      ; combout          ;
+; |FinalProject|inst78~2  ; |FinalProject|inst78~2      ; combout          ;
+; |FinalProject|inst41    ; |FinalProject|inst41        ; combout          ;
+; |FinalProject|inst47~0  ; |FinalProject|inst47~0      ; combout          ;
+; |FinalProject|inst42    ; |FinalProject|inst42        ; combout          ;
+; |FinalProject|inst53    ; |FinalProject|inst53        ; combout          ;
+; |FinalProject|inst54~0  ; |FinalProject|inst54~0      ; combout          ;
+; |FinalProject|inst93~0  ; |FinalProject|inst93~0      ; combout          ;
+; |FinalProject|inst93~1  ; |FinalProject|inst93~1      ; combout          ;
+; |FinalProject|inst104~0 ; |FinalProject|inst104~0     ; combout          ;
+; |FinalProject|inst93~2  ; |FinalProject|inst93~2      ; combout          ;
+; |FinalProject|inst93~3  ; |FinalProject|inst93~3      ; combout          ;
+; |FinalProject|inst93~4  ; |FinalProject|inst93~4      ; combout          ;
+; |FinalProject|inst93~5  ; |FinalProject|inst93~5      ; combout          ;
+; |FinalProject|inst104~1 ; |FinalProject|inst104~1     ; combout          ;
+; |FinalProject|inst107~2 ; |FinalProject|inst107~2     ; combout          ;
+; |FinalProject|inst107~3 ; |FinalProject|inst107~3     ; combout          ;
+; |FinalProject|inst107~4 ; |FinalProject|inst107~4     ; combout          ;
+; |FinalProject|inst107~5 ; |FinalProject|inst107~5     ; combout          ;
+; |FinalProject|inst107~6 ; |FinalProject|inst107~6     ; combout          ;
+; |FinalProject|inst107~7 ; |FinalProject|inst107~7     ; combout          ;
+; |FinalProject|inst107~8 ; |FinalProject|inst107~8     ; combout          ;
+; |FinalProject|inst78~3  ; |FinalProject|inst78~3      ; combout          ;
+; |FinalProject|inst78~4  ; |FinalProject|inst78~4      ; combout          ;
+; |FinalProject|NSeq2     ; |FinalProject|NSeq2         ; padio            ;
+; |FinalProject|L1        ; |FinalProject|L1            ; padio            ;
+; |FinalProject|L2        ; |FinalProject|L2            ; padio            ;
+; |FinalProject|L3        ; |FinalProject|L3            ; padio            ;
+; |FinalProject|L4        ; |FinalProject|L4            ; padio            ;
+; |FinalProject|a         ; |FinalProject|a             ; padio            ;
+; |FinalProject|b         ; |FinalProject|b             ; padio            ;
+; |FinalProject|c         ; |FinalProject|c             ; padio            ;
+; |FinalProject|d         ; |FinalProject|d             ; padio            ;
+; |FinalProject|e         ; |FinalProject|e             ; padio            ;
+; |FinalProject|f         ; |FinalProject|f             ; padio            ;
+; |FinalProject|g         ; |FinalProject|g             ; padio            ;
+; |FinalProject|NSeq0     ; |FinalProject|NSeq0         ; padio            ;
+; |FinalProject|NSeq1     ; |FinalProject|NSeq1         ; padio            ;
+; |FinalProject|Seq1      ; |FinalProject|Seq1~corein   ; combout          ;
+; |FinalProject|Seq2      ; |FinalProject|Seq2~corein   ; combout          ;
+; |FinalProject|SW2       ; |FinalProject|SW2~corein    ; combout          ;
+; |FinalProject|Seq0      ; |FinalProject|Seq0~corein   ; combout          ;
+; |FinalProject|SW4       ; |FinalProject|SW4~corein    ; combout          ;
+; |FinalProject|SW3       ; |FinalProject|SW3~corein    ; combout          ;
+; |FinalProject|Treset    ; |FinalProject|Treset~corein ; combout          ;
+; |FinalProject|SW1       ; |FinalProject|SW1~corein    ; combout          ;
++-------------------------+-----------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Mon May 12 10:45:30 2025
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off FinalProject -c FinalProject
+Info: Using vector source file "E:/Ali/universities/LAU/study/Second Year/Spring 2025/COE322 (Logic Design Lab)/Final Project/Quartus/FinalProject.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is     100.00 %
+Info: Number of transitions in simulation is 3794
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 161 megabytes
+    Info: Processing ended: Mon May 12 10:45:31 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
