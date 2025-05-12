@@ -15,7 +15,7 @@ The report that holds the complete analysis of the system and the final results
 The core of the analysis and the first step to create this system
 
 ## Design Choice
-<![endif]-->
+
 
 Outstanding Design Features Which Offer Advantages Over Alternative Designs
 
